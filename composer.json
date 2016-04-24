@@ -1,0 +1,32 @@
+{
+    "name": "larabox/larabox",
+    "description": "CMS",
+    "keywords": ["laravel", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex. Suroviy",
+            "email": "suroviy@bk.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "intervention/image": "^2.2",
+        "artesaos/seotools": "^0.8.2",
+        "baum/baum": "^1.1",
+        "laravel/socialite": "^2.0",
+        "roumen/sitemap": "v2.5.*",
+        "roumen/feed": "v2.9.*",
+        "maatwebsite/excel": "v2.1.2",
+        "barryvdh/laravel-debugbar": "v2.2.0",
+        "barryvdh/laravel-ide-helper":"v2.1.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Suroviy\\laraCore\\": "src/"
+        }
+    }
+}
