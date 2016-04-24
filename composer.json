@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Suroviy\\laraCore\\": "src/"
+            "Suroviy\\LaraBox\\": "src/"
         }
     }
 }
