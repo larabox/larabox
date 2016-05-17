@@ -8,11 +8,13 @@ Admin::menu()->label('Blog')->icon('fa-book')->items(function ()
     Admin::menu('App\Post')->icon('fa-file');
 });
 
-Admin::menu()->label('market')->icon('fa-shopping-cart')->items(function ()
+Admin::menu()->label('Market')->icon('fa-shopping-cart')->items(function ()
 {
     Admin::menu('App\Catalog')->icon('fa-sitemap');
     Admin::menu('App\Product')->icon('fa-file');
 });
+
+Admin::menu('App\Landing')->icon('fa-plane');
 
 Admin::menu()->url('elfinder')->label('Files')->icon('fa-folder-open');
 

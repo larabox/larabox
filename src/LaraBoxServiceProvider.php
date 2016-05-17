@@ -19,6 +19,12 @@ class LaraBoxServiceProvider extends ServiceProvider {
 		\Roumen\Sitemap\SitemapServiceProvider::class,
 		\Roumen\Feed\FeedServiceProvider::class,
 		\Maatwebsite\Excel\ExcelServiceProvider::class,
+
+		\Suroviy\SoaAddon\SoaAddonServiceProvider::class,
+        \Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        \Barryvdh\Debugbar\ServiceProvider::class,
+
+		
 	];
 
 	/**

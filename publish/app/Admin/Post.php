@@ -7,7 +7,7 @@
         Column::checkbox(),
         Column::string('id')->label('#'),
         Column::string('title')->label('Загаловок'),
-        Column::string('action')->label('Статус'),
+        Column::string('active_status')->label('Статус'),
         Column::string('publish')->label('Опубликован'),
     ]);
     return $display;

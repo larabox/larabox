@@ -44,6 +44,9 @@ class InstallCommand extends Command
 		$this->reaplaceFile('app'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Kernel.php');
 		$this->reaplaceFile('app'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'routes.php');
 
+		$this->reaplaceFile('app'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Controllers'.DIRECTORY_SEPARATOR
+			.'Auth'.DIRECTORY_SEPARATOR.'AuthController.php');
+
 		$this->reaplaceFile('app'.DIRECTORY_SEPARATOR.'Admin'.DIRECTORY_SEPARATOR.'menu.php');
 		$this->reaplaceFile('app'.DIRECTORY_SEPARATOR.'Admin'.DIRECTORY_SEPARATOR.'User.php');
 

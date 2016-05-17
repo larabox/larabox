@@ -18,7 +18,7 @@
                     FormItem::text('label', 'Загаловок')->required()->unique(),
                     FormItem::text('name', 'Название')->required()->unique(),
                     FormItem::textarea('description', 'Описание'),
-                    FormItem::icheckbox('active', 'Статус')->defaultValue(true),
+                    FormItem::icheckbox('active_status', 'Статус')->defaultValue(true),
 
                 ],[
                     FormItem::image('image', 'Картинка'),
